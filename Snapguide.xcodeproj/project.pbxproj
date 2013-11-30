@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7E87411833598F007E14A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E87401833598F007E14A1 /* UIKit.framework */; };
+		8E7E87431833598F007E14A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E87421833598F007E14A1 /* Foundation.framework */; };
+		8E7E87451833598F007E14A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E87441833598F007E14A1 /* CoreGraphics.framework */; };
+		8E7E874B1833598F007E14A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E87491833598F007E14A1 /* InfoPlist.strings */; };
+		8E7E874D1833598F007E14A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E874C1833598F007E14A1 /* main.m */; };
+		8E7E87511833598F007E14A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E87501833598F007E14A1 /* AppDelegate.m */; };
+		8E7E87531833598F007E14A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E87521833598F007E14A1 /* Default.png */; };
+		8E7E87551833598F007E14A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E87541833598F007E14A1 /* Default@2x.png */; };
+		8E7E87571833598F007E14A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E87561833598F007E14A1 /* Default-568h@2x.png */; };
+		8E7E875A1833598F007E14A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E87591833598F007E14A1 /* ViewController.m */; };
+		8E7E875D1833598F007E14A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E875B1833598F007E14A1 /* ViewController.xib */; };
+		E83A4F08183C855700DA5DD3 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A4F07183C855700DA5DD3 /* AsyncImageView.m */; };
+		E83A4F0B183C993700DA5DD3 /* PopularMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A4F0A183C993700DA5DD3 /* PopularMedia.m */; };
+		E83A4F0E183C99F200DA5DD3 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A4F0D183C99F200DA5DD3 /* UserInfo.m */; };
+		E845007C1835990900DBA855 /* PopularMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E845007B1835990900DBA855 /* PopularMediaViewController.m */; };
+		E8521AE51836E98100BC4F83 /* MyPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = E8521AE41836E98100BC4F83 /* MyPhotos.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E7E873D1833598F007E14A1 /* Snapguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7E87401833598F007E14A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E7E87421833598F007E14A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E7E87441833598F007E14A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E7E87481833598F007E14A1 /* Snapguide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snapguide-Info.plist"; sourceTree = "<group>"; };
+		8E7E874A1833598F007E14A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E7E874C1833598F007E14A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7E874E1833598F007E14A1 /* Snapguide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapguide-Prefix.pch"; sourceTree = "<group>"; };
+		8E7E874F1833598F007E14A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E7E87501833598F007E14A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E7E87521833598F007E14A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E7E87541833598F007E14A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E7E87561833598F007E14A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E7E87581833598F007E14A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E7E87591833598F007E14A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E7E875C1833598F007E14A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E83A4F06183C855700DA5DD3 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		E83A4F07183C855700DA5DD3 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		E83A4F09183C993700DA5DD3 /* PopularMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMedia.h; sourceTree = "<group>"; };
+		E83A4F0A183C993700DA5DD3 /* PopularMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMedia.m; sourceTree = "<group>"; };
+		E83A4F0C183C99F200DA5DD3 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		E83A4F0D183C99F200DA5DD3 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		E845007A1835990900DBA855 /* PopularMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMediaViewController.h; sourceTree = "<group>"; };
+		E845007B1835990900DBA855 /* PopularMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMediaViewController.m; sourceTree = "<group>"; };
+		E845007D18359AD000DBA855 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E8521AE31836E98100BC4F83 /* MyPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotos.h; sourceTree = "<group>"; };
+		E8521AE41836E98100BC4F83 /* MyPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotos.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7E873A1833598F007E14A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7E87411833598F007E14A1 /* UIKit.framework in Frameworks */,
+				8E7E87431833598F007E14A1 /* Foundation.framework in Frameworks */,
+				8E7E87451833598F007E14A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7E87341833598F007E14A1 = {
+			isa = PBXGroup;
+			children = (
+				8E7E87461833598F007E14A1 /* Snapguide */,
+				8E7E873F1833598F007E14A1 /* Frameworks */,
+				8E7E873E1833598F007E14A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7E873E1833598F007E14A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E873D1833598F007E14A1 /* Snapguide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7E873F1833598F007E14A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E87401833598F007E14A1 /* UIKit.framework */,
+				8E7E87421833598F007E14A1 /* Foundation.framework */,
+				8E7E87441833598F007E14A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7E87461833598F007E14A1 /* Snapguide */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E874F1833598F007E14A1 /* AppDelegate.h */,
+				8E7E87501833598F007E14A1 /* AppDelegate.m */,
+				8E7E87581833598F007E14A1 /* ViewController.h */,
+				8E7E87591833598F007E14A1 /* ViewController.m */,
+				E8521AE31836E98100BC4F83 /* MyPhotos.h */,
+				E8521AE41836E98100BC4F83 /* MyPhotos.m */,
+				E845007A1835990900DBA855 /* PopularMediaViewController.h */,
+				E845007B1835990900DBA855 /* PopularMediaViewController.m */,
+				E83A4F09183C993700DA5DD3 /* PopularMedia.h */,
+				E83A4F0A183C993700DA5DD3 /* PopularMedia.m */,
+				E83A4F0C183C99F200DA5DD3 /* UserInfo.h */,
+				E83A4F0D183C99F200DA5DD3 /* UserInfo.m */,
+				E83A4F06183C855700DA5DD3 /* AsyncImageView.h */,
+				E83A4F07183C855700DA5DD3 /* AsyncImageView.m */,
+				E845007D18359AD000DBA855 /* Constants.h */,
+				8E7E87471833598F007E14A1 /* Supporting Files */,
+			);
+			path = Snapguide;
+			sourceTree = "<group>";
+		};
+		8E7E87471833598F007E14A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E875B1833598F007E14A1 /* ViewController.xib */,
+				8E7E87481833598F007E14A1 /* Snapguide-Info.plist */,
+				8E7E87491833598F007E14A1 /* InfoPlist.strings */,
+				8E7E874C1833598F007E14A1 /* main.m */,
+				8E7E874E1833598F007E14A1 /* Snapguide-Prefix.pch */,
+				8E7E87521833598F007E14A1 /* Default.png */,
+				8E7E87541833598F007E14A1 /* Default@2x.png */,
+				8E7E87561833598F007E14A1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7E873C1833598F007E14A1 /* Snapguide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7E87601833598F007E14A1 /* Build configuration list for PBXNativeTarget "Snapguide" */;
+			buildPhases = (
+				8E7E87391833598F007E14A1 /* Sources */,
+				8E7E873A1833598F007E14A1 /* Frameworks */,
+				8E7E873B1833598F007E14A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapguide;
+			productName = Snapguide;
+			productReference = 8E7E873D1833598F007E14A1 /* Snapguide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7E87351833598F007E14A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bharath G M";
+			};
+			buildConfigurationList = 8E7E87381833598F007E14A1 /* Build configuration list for PBXProject "Snapguide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E7E87341833598F007E14A1;
+			productRefGroup = 8E7E873E1833598F007E14A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7E873C1833598F007E14A1 /* Snapguide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7E873B1833598F007E14A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7E874B1833598F007E14A1 /* InfoPlist.strings in Resources */,
+				8E7E87531833598F007E14A1 /* Default.png in Resources */,
+				8E7E87551833598F007E14A1 /* Default@2x.png in Resources */,
+				8E7E87571833598F007E14A1 /* Default-568h@2x.png in Resources */,
+				8E7E875D1833598F007E14A1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7E87391833598F007E14A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83A4F0E183C99F200DA5DD3 /* UserInfo.m in Sources */,
+				8E7E874D1833598F007E14A1 /* main.m in Sources */,
+				E83A4F08183C855700DA5DD3 /* AsyncImageView.m in Sources */,
+				E83A4F0B183C993700DA5DD3 /* PopularMedia.m in Sources */,
+				E845007C1835990900DBA855 /* PopularMediaViewController.m in Sources */,
+				8E7E87511833598F007E14A1 /* AppDelegate.m in Sources */,
+				8E7E875A1833598F007E14A1 /* ViewController.m in Sources */,
+				E8521AE51836E98100BC4F83 /* MyPhotos.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E7E87491833598F007E14A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7E874A1833598F007E14A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E7E875B1833598F007E14A1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7E875C1833598F007E14A1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7E875E1833598F007E14A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E7E875F1833598F007E14A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7E87611833598F007E14A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapguide/Snapguide-Prefix.pch";
+				INFOPLIST_FILE = "Snapguide/Snapguide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6816E16F-670A-4DAC-B1C2-209399DA4A73";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E7E87621833598F007E14A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amitabha Chatterjee (E377ZTDD29)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapguide/Snapguide-Prefix.pch";
+				INFOPLIST_FILE = "Snapguide/Snapguide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6816E16F-670A-4DAC-B1C2-209399DA4A73";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7E87381833598F007E14A1 /* Build configuration list for PBXProject "Snapguide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7E875E1833598F007E14A1 /* Debug */,
+				8E7E875F1833598F007E14A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7E87601833598F007E14A1 /* Build configuration list for PBXNativeTarget "Snapguide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7E87611833598F007E14A1 /* Debug */,
+				8E7E87621833598F007E14A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7E87351833598F007E14A1 /* Project object */;
+}
